@@ -1,2 +1,21 @@
-%h1=t('.title')
-%p=t('.welcome')
+.main_body
+  #header
+    %h1=t('.title')
+    %p=t('.welcome')
+
+  %span{:id => "form_break"}
+
+  #login
+    %form
+      = label :user, :email, "Email"
+      %br
+      = text_field :user, :email
+      %br
+      = label :user, :password
+      %br
+      = password_field :user, :password
+      %br
+      %input{:type => "submit", :value => "Sign in", :class => "submit"}
+
+    #change_div
+      %input{:type => "submit", :value => "Register", :id => "input_button", :class => "submit"}
