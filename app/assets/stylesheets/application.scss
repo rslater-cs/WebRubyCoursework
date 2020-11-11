@@ -17,7 +17,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-$font: 'Times New Roman', 'Times', serif;
+$font: 'Segoe UI';
 $color: #FFFFFF;
 
 *{
@@ -31,7 +31,13 @@ $color: #FFFFFF;
 
 body{
   font-family: $font;
+  font-weight: bold;
   background-color: $color;
+  background-image: url("DesktopBack.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -40,34 +46,93 @@ body{
 }
 
 #login{
-  font-size: 20px;
   text-align: center;
-  width: 450px;
 }
 
-#form_break{
- display: block;
-  margin-bottom: 150px;
+@media (orientation: portrait){
+  #login{
+    font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1600 - 300)));
+    width: 60%;
+  }
+  #form_break{
+    display: block;
+    margin-bottom: 15vh;
+  }
+}
+@media (orientation: landscape){
+  #login{
+    font-size: calc(13px + (23  - 13) * ((100vw - 300px) / (1600 - 300)));
+  }
+  @media (max-width: 999px){
+    #login{
+      width: 60%;
+    }
+  }
+  @media (min-width: 1000px) {
+    #login {
+      width: 25%;
+    }
+  }
+  #form_break{
+    display: block;
+    margin-bottom:10vh;
+  }
 }
 
 #input_button {
   margin: 10px;
+  position: absolute;
+  top: inherit;
+}
+
+enter_details{
+  position: relative;
+}
+
+#register_fields{
+  opacity: 0;
 }
 
 #change_div{
   text-align: right;
+  padding: 30px;
 }
 
+//.register_field{
+//  opacity: 0;
+//  height: 0px;
+//  font-size: 0px;
+//  margin: 0;
+//  padding: 0;
+//}
+
 input {
-  border-radius: 30px;
-  border-width: 1px;
+  border-radius: 3000px;
   outline: none;
-  margin: 7px;
+  margin: 5px;
+  background-color: #BBBBBB;
+  padding: 5px 18px 5px 18px;
+  border-width: 0;
+  border-color: black;
+  font-weight: lighter;
+  font-size: calc(13px + (18  - 13) * ((100vw - 300px) / (1600 - 300)));
+  color: #6d6d6d;
+  width: 90%;
+  max-width: 400px;
 }
 
 .submit{
-  width: 100px;
-  height: 40px;
+  outline: none;
+  font-weight: lighter;
+  border-radius: 3000px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+  border-width: 0;
+  font-size: calc(13px + (18  - 13) * ((100vw - 300px) / (1600 - 300)));
+  padding: 2px 10px 3px 10px;
+  width: calc(65px + (90  - 65) * ((100vw - 300px) / (1600 - 300)));
+  height: calc(22px + (31  - 22) * ((100vw - 300px) / (1600 - 300)));
 }
 
 h1{

@@ -1,3 +1,7 @@
+/Scripts:
+%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"}
+%script{ :type => "text/javascript", :src => "change_form.js"}
+
 .main_body
   #header
     %h1=t('.title')
@@ -6,16 +10,20 @@
   %span{:id => "form_break"}
 
   #login
-    %form
-      = label :user, :email, "Email"
-      %br
-      = text_field :user, :email
-      %br
-      = label :user, :password
-      %br
-      = password_field :user, :password
-      %br
-      %input{:type => "submit", :value => "Sign in", :class => "submit"}
+    = label :user, :email, "Email"
+    %br
+    = text_field :user, :email
+    %br
+    = label :user, :password
+    %br
+    = password_field :user, :password
+    -#%br
+    -#= label :user, "Re-Enter Password", :class => "register_field"
+    -#%br
+    -#= password_field :user, :reenter, :class => "register_field"
+    #register_fields
+    %br
+    %input{:type => "submit", :value => "Sign in", :class => "submit", :id => "enter_details"}
 
     #change_div
-      %input{:type => "submit", :value => "Register", :id => "input_button", :class => "submit"}
+      %button{:value => "Register", :id => "input_button", :class => "submit", :onclick => "clicked(); return false();"}="Register"
