@@ -17,7 +17,7 @@ function anim_log_to_reg(button, height, register){
     });
     button.animate({opacity: "1", height: height}, 300);
     register.animate({height: "+=50px"}, 300);
-    register.html("<label>Re-Enter Password</label><input type='password' name='reenter'>");
+    register.html("<label>Re-Enter Password</label><input type='password' name='reenter' id='password_reenter'>");
     register.animate({opacity: "1"}, 300);
 }
 
