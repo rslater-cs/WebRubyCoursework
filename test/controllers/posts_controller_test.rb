@@ -45,4 +45,21 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to posts_url
   end
+
+  test "should not create invalid post" do
+    post = Post.new
+    
+    post.save
+    refute post.valid?
+  end
+
+  test "should create valid post" do
+    post = Post.new
+
+    post.id = 1
+    post.date = Date.today.to_s
+
+    post.save
+    assert post.valid?
+  end
 end
