@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:new, :create,]
 
   # GET /posts
   # GET /posts.json
@@ -14,7 +15,7 @@ class PostsController < ApplicationController
 
   # GET /posts/new
   def new
-    @post = Post.new
+    @post = @user.posts.new
   end
 
   # GET /posts/1/edit
@@ -24,7 +25,7 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.json
   def create
-    @post = Post.new(post_params)
+    @post = @user.posts.new(post_params)
 
     respond_to do |format|
       if @post.save
@@ -67,8 +68,12 @@ class PostsController < ApplicationController
       @post = Post.find(params[:id])
     end
 
+    def set_user
+      @user = User.find(id: params[:user_id]) || User.find_by(id: params[:user_id])
+    end
+
     # Only allow a list of trusted parameters through.
     def post_params
-      params.require(:post).permit(:user_id, :content, :image, :date)
+      params.require(:post).permit(:user_id, :content, :image, :dateposted)
     end
 end

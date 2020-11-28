@@ -2,7 +2,7 @@
 
 %p
   %b User:
-  = @post.user_id
+  = @post.user
 %p
   %b Content:
   = @post.content
@@ -10,8 +10,8 @@
   %b Image:
   = @post.image
 %p
-  %b Date:
-  = @post.date
+  %b Dateposted:
+  = @post.dateposted
 
 = link_to 'Edit', edit_post_path(@post)
 \|

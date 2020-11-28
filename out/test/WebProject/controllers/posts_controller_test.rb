@@ -3,7 +3,6 @@ require 'test_helper'
 class PostsControllerTest < ActionDispatch::IntegrationTest
   setup do
     @post = posts(:one)
-    @user = users(:one)
   end
 
   test "should get index" do
@@ -59,7 +58,6 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
   test "should create valid post" do
     post = Post.new
 
-    post.user = @user
     post.dateposted = "2020-05-10"
 
     post.save
