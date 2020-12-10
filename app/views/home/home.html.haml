@@ -1,27 +1,13 @@
-/Scripts:
-/%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"}
-/%script{:type => "text/javascript", :src => "validate.js"}
-/%script{:type => "text/javascript", :src => "change_form.js"}
-
 .main_body
-  #header
-    %h1=t('.title')
-    %p=t('.welcome')
-
-  %span{:id => "form_break"}
-
-  %p= link_to "blah", users_path
-  #login
-    = label :user, :email, "Email"
-    %br
-    = text_field :user, :email, :id => "email"
-    %br
-    = label :user, :password
-    %br
-    = password_field :user, :password, :id => "password"
-    #register_fields
-    %br
-    %input{:type => "button", :value => "Sign in", :class => "submit", :id => "enter_details", :onclick => "validate(); return false();"}
-
-    #change_div
-      %button{:value => "Register", :id => "input_button", :class => "submit", :onclick => "clicked(); return false();"}="Register"
+  .user_form
+    #login
+      = form_tag get_user_path, method: "post" do
+        = label_tag :email, "Email"
+        %br
+        = email_field_tag :email, '', title: "enter somthing", :id => "email", :name => "user[email]"
+        %br
+        = label_tag :password, "Password"
+        %br
+        = password_field_tag :password, '', title: "enter somthing", :id => "password", :name => "user[password]"
+        %br
+        = submit_tag "Submit", :class => "submit", :id => "enter_details"

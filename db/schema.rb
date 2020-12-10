@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_26_170635) do
+ActiveRecord::Schema.define(version: 2020_12_10_161713) do
+
+  create_table "issues", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "email", null: false
+    t.string "telephone"
+    t.text "message", null: false
+    t.boolean "closed", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "posts", force: :cascade do |t|
     t.integer "user_id", null: false

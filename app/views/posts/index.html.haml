@@ -1,27 +1,17 @@
 %h1 Listing posts
-
-%table
-  %thead
-    %tr
-      %th User
-      %th Content
-      %th Image
-      %th Dateposted
-      %th
-      %th
-      %th
-
-  %tbody
-    - @posts.each do |post|
-      %tr
-        %td= post.user
-        %td= post.content
-        %td= post.image
-        %td= post.dateposted
-        %td= link_to 'Show', post
-        %td= link_to 'Edit', edit_post_path(post)
-        %td= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }
+%br
+#new_post
+  %a{:href => new_post_path}
+    %button{:class => "submit", :id => "new_button", :title => "Create a new post here"} New
 
 %br
 
-= link_to 'New Post', new_post_path
+- @posts.each do |post|
+  #post_block
+    %p= post.user_id
+    - if !post.content.nil?
+      %p= post.content
+    - if !post.image.nil?
+      %image{src:"uploads/#{post.image}", :class => "post_image"}
+    %p= post.dateposted
+    %p= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }

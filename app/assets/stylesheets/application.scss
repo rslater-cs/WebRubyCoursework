@@ -41,8 +41,9 @@ body{
   text-align: center;
 }
 
-#header{
+.header{
   text-align: left;
+  padding-left: 5vw;
 }
 
 #login{
@@ -70,7 +71,7 @@ body{
   }
   @media (min-width: 1000px) {
     #login {
-      width: 25%;
+      width: 45%;
     }
   }
   #form_break{
@@ -99,7 +100,7 @@ enter_details{
 }
 
 input {
-  border-radius: 3000px;
+  border-radius: 20px;
   outline: none;
   margin: 5px;
   background-color: #BBBBBB;

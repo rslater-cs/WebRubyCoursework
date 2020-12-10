@@ -25,11 +25,17 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.json
   def create
-    @post = @user.posts.new(post_params)
+    uploaded_image = post_params[:image]
+
+    File.open(Rails.root.join('public', 'uploads', uploaded_image.original_filename), 'wb') do |file|
+      file.write(uploaded_image.read)
+    end
+
+    @post = @user.posts.new(content: post_params[:content], image: uploaded_image.original_filename, dateposted: Time.now)
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to @post, notice: 'Post was successfully created.' }
+        format.html { redirect_to posts_path, notice: 'Post was successfully created.' }
         format.json { render :show, status: :created, location: @post }
       else
         format.html { render :new }
@@ -69,7 +75,7 @@ class PostsController < ApplicationController
     end
 
     def set_user
-      @user = User.find(id: params[:user_id]) || User.find_by(id: params[:user_id])
+      @user = User.find(session[:user_id])
     end
 
     # Only allow a list of trusted parameters through.

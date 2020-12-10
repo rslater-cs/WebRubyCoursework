@@ -1,3 +1,4 @@
+%script{:src => "application.js"}
 = form_for @user do |f|
   - if @user.errors.any?
     #error_explanation
@@ -5,12 +6,16 @@
       %ul
         - @user.errors.full_messages.each do |message|
           %li= message
-
-  .field
-    = f.label :email
-    = f.text_field :email
-  .field
-    = f.label :password
-    = f.text_field :password
-  .actions
-    = f.submit 'Save'
+  .user_form
+    #login
+      .field
+        = f.label :email
+        %br
+        = f.text_field :email, :name => "user[email]"
+      .field
+        = f.label :password
+        %br
+        = f.password_field :password, :name => "user[password]"
+      .actions
+        %br
+        = f.submit 'Submit', :class => "submit", :id => "enter_details"

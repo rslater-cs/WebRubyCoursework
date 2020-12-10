@@ -30,8 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  app_title: My Notes
-  app_description: A place where you can keep all of your notes
+  app_title: Post Board
+  app_description: Twitter but worse
   home:
     home:
       title: Post Board
@@ -54,3 +54,9 @@ en:
     request_contact:
       no_email: You must supply an email address
       email_sent: Thank you. We will be in touch shortly
+
+  shared:
+    header:
+      title_top: Post
+      title_bottom: Board.
+      welcome: A place to share your thoughts? (cringe)
