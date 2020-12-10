@@ -4,11 +4,9 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.json
   def index
-    @issues = Issue.all
-  end
-
-  def get_issues
-    flash[:alert] = params[:search]
+    user = User.find_by(id: session[:user_id])
+    email = user[:email]
+    @issues = Issue.where(email: email)
   end
 
   # GET /issues/1
