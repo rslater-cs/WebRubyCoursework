@@ -1,7 +1,16 @@
 %h1 Editing issue
 
-= render 'form'
+= form_for @issue do |f|
+  - if @issue.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@issue.errors.count, "error")} prohibited this issue from being saved:"
+      %ul
+        - @issue.errors.full_messages.each do |message|
+          %li= message
 
-= link_to 'Show', @issue
-\|
+  .field
+    = f.label :closed
+    = f.check_box :closed
+  .actions
+    = f.submit 'Save'
 = link_to 'Back', issues_path

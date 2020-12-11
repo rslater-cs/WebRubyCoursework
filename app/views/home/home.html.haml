@@ -1,13 +1,14 @@
+%script{:type => "text/javascript", :src => "application.js"}
 .main_body
   .user_form
     #login
       = form_tag get_user_path, method: "post" do
         = label_tag :email, "Email"
         %br
-        = email_field_tag :email, '', title: "enter somthing", :id => "email", :name => "user[email]"
+        = email_field_tag :email, '', :id => "email", :name => "user[email]"
         %br
         = label_tag :password, "Password"
         %br
-        = password_field_tag :password, '', title: "enter somthing", :id => "password", :name => "user[password]"
+        = password_field_tag :password, '', :id => "password", :name => "user[password]"
         %br
         = submit_tag "Submit", :class => "submit", :id => "enter_details"

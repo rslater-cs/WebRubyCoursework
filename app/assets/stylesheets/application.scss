@@ -131,3 +131,12 @@ input {
 h1{
   text-transform: uppercase;
 }
+
+#post_block{
+  background-color: #BBBBBB;
+  border-radius: 10px;
+  width: calc(200px + (500 - 200)*((100vw - 300px) / (1600 - 300)));
+  height: fit-content;
+  padding: 5px 0;
+  margin: 10px auto;
+}

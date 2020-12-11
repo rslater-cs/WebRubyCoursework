@@ -18,9 +18,13 @@
 //= require turbolinks
 //= require_tree .
 
-$('.user_form').validate({
-    rules: {
-        "user[email]": {required: true, email: true},
-        "user[password]": {required: true, minLength: 8}
-    }
+$(document).ready(function () {
+    alert("hi")
+    $('.user_form').validate({
+        rules: {
+            "user[email]": {required: true, email: true},
+            "user[password]": {required: true, minLength: 8}
+        }
+    });
 });
+

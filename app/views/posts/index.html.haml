@@ -14,4 +14,5 @@
     - if !post.image.nil?
       %image{src:"uploads/#{post.image}", :class => "post_image"}
     %p= post.dateposted
-    %p= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }
+    - if post.user_id == session[:user_id]
+      %p= link_to image_tag('/bin_symbol.png'), post, method: :delete, data: {confirm: 'Are you sure?'}

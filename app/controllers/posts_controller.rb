@@ -61,12 +61,15 @@ class PostsController < ApplicationController
   # DELETE /posts/1
   # DELETE /posts/1.json
   def destroy
-    @post.destroy
-    respond_to do |format|
-      format.html { redirect_to posts_url, notice: 'Post was successfully destroyed.' }
-      format.json { head :no_content }
+    unless @post.image.nil?
+      File.delete(Rails.root.join('public', 'uploads', @post.image))
     end
-  end
+      @post.destroy
+      respond_to do |format|
+        format.html { redirect_to posts_url, notice: 'Post was successfully destroyed.' }
+        format.json { head :no_content }
+      end
+    end
 
   private
     # Use callbacks to share common setup or constraints between actions.
@@ -75,7 +78,12 @@ class PostsController < ApplicationController
     end
 
     def set_user
-      @user = User.find(session[:user_id])
+      if session[:user_id].nil?
+        flash[:alert] = "Log In To See Issue Tickets"
+        redirect_to root_path
+      else
+        @user = User.find(session[:user_id])
+      end
     end
 
     # Only allow a list of trusted parameters through.

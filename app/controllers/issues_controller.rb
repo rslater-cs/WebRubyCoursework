@@ -4,9 +4,14 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.json
   def index
-    user = User.find_by(id: session[:user_id])
-    email = user[:email]
-    @issues = Issue.where(email: email)
+    if session[:user_id].nil?
+      redirect_to root_path
+      flash[:alert] = "Log In To See Issue Tickets"
+    else
+      user = User.find_by(id: session[:user_id])
+      email = user[:email]
+      @issues = Issue.where(email: email)
+    end
   end
 
   # GET /issues/1
@@ -44,7 +49,7 @@ class IssuesController < ApplicationController
   def update
     respond_to do |format|
       if @issue.update(issue_params)
-        format.html { redirect_to @issue, notice: 'Issue was successfully updated.' }
+        format.html { redirect_to issues_path, notice: 'Issue was successfully updated.' }
         format.json { render :show, status: :ok, location: @issue }
       else
         format.html { render :edit }
