@@ -12,17 +12,16 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get new" do
-    get new_post_url
+    get new_post_url, params: { post: {user_id: @user.id}}
     assert_response :success
   end
 
   test "should create post" do
-    @user = users(:one)
     assert_difference('Post.count') do
-      post posts_url, params: { post: { content: @post.content, dateposted: @post.dateposted, image: @post.image, user_id: @post.user_id } }
+      post posts_url, params: { post: {user_id: @user.id, content: "test message", dateposted: "2020-05-12"}}
     end
 
-    assert_redirected_to post_url(Post.last)
+    assert_redirected_to posts_path
   end
 
   test "should show post" do
@@ -61,6 +60,7 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
 
     post.user = @user
     post.dateposted = "2020-05-10"
+    post.content = "test"
 
     post.save
 

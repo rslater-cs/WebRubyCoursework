@@ -12,7 +12,7 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
 
     assert_template layout: 'application'
 
-    assert_select'title', 'My Notes'
+    assert_select'title', 'Post Board'
     assert_select'h1', 'Contact Us'
     assert_select'p', 'Complete the following to get in contact with us'
   end
@@ -33,6 +33,18 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_response :redirect
     assert_nil flash[:alert]
     assert_not_empty flash[:notice]
+  end
+
+  test "should get user" do
+    post get_user_url, params:{
+      user: {
+        email: "test.user@email.com", password: "testpassword"
+      }
+    }
+
+    assert_response :redirect
+    assert_nil flash[:alert]
+    refute_nil session[:user_id]
   end
 
 end

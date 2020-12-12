@@ -2,12 +2,12 @@
 
 one:
   user: one
-  content: MyText
-  image: MyString
+  content: Hello
+  image:
   dateposted: 2020-11-26
 
 two:
   user: two
-  content: MyText
-  image: MyString
+  content: Somthing
+  image: file.png
   dateposted: 2020-11-26

@@ -1,15 +1,4 @@
 %h1 Listing issues
--#%tbody
--#  - @issues.each do |issue|
--#    %tr
--#      %td= issue.name
--#      %td= issue.email
--#      %td= issue.telephone
--#      %td= issue.message
--#      %td= issue.closed
--#      %td= link_to 'Show', issue
--#      %td= link_to 'Edit', edit_issue_path(issue)
--#      %td= link_to 'Destroy', issue, method: :delete, data: { confirm: 'Are you sure?' }
 
 - @issues.each do |issue|
   #post_block

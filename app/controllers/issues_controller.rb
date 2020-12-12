@@ -1,5 +1,5 @@
 class IssuesController < ApplicationController
-  before_action :set_issue, only: [:show, :edit, :update, :destroy]
+  before_action :set_issue, only: [:edit, :update, :destroy]
 
   # GET /issues
   # GET /issues.json
@@ -14,18 +14,9 @@ class IssuesController < ApplicationController
     end
   end
 
-  # GET /issues/1
-  # GET /issues/1.json
-  def show
-  end
-
   # GET /issues/new
   def new
     @issue = Issue.new
-  end
-
-  # GET /issues/1/edit
-  def edit
   end
 
   # POST /issues

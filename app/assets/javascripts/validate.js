@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    alert("hi");
+});
+
 function validate(){
     const email_field = $('#email');
     const password_field = $('#password');

@@ -1,9 +1,4 @@
 class HomeController < ApplicationController
-  def home
-  end
-
-  def contact
-  end
 
   def request_contact
     name = params[:name]
@@ -13,20 +8,22 @@ class HomeController < ApplicationController
 
     if email.blank?
       flash[:alert] = I18n.t('home.request_contact.no_email')
+      redirect_to contact_path
+      return
     else
       ContactMailer.contact_email(email, name, telephone, message).deliver_now
       flash[:notice] = I18n.t('home.request_contact.email_sent')
     end
 
-    if !email.blank? && !telephone.blank? && !name.blank? && !message.blank?
+    if !name.blank? && !message.blank?
       @issue = Issue.new(name: name, email: email, telephone: telephone, message: message, closed: false)
       if @issue.save
-        flash[:alert] = "Issue was create successfully"
+        flash[:notice] = "Issue was create successfully"
         redirect_to posts_path
-      else
-        format.html { render :new }
-        format.json { render json: @issue.errors, status: :unprocessable_entity }
       end
+    else
+      flash[:alert] = "Issue not saved, info fields missing"
+      redirect_to :new
     end
   end
 

@@ -15,6 +15,9 @@ class PostsController < ApplicationController
 
   # GET /posts/new
   def new
+    if @user.nil?
+      @user = User.find(post_params[:user_id])
+    end
     @post = @user.posts.new
   end
 
@@ -26,12 +29,20 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     uploaded_image = post_params[:image]
+    filename = nil
+    if uploaded_image
+      filename = uploaded_image.original_filename
 
-    File.open(Rails.root.join('public', 'uploads', uploaded_image.original_filename), 'wb') do |file|
-      file.write(uploaded_image.read)
+      File.open(Rails.root.join('public', 'uploads', filename), 'wb') do |file|
+        file.write(uploaded_image.read)
+      end
     end
 
-    @post = @user.posts.new(content: post_params[:content], image: uploaded_image.original_filename, dateposted: Time.now)
+    if @user.nil?
+      @user = User.find(post_params[:user_id])
+    end
+
+    @post = @user.posts.new(content: post_params[:content], image: filename, dateposted: Time.now)
 
     respond_to do |format|
       if @post.save
@@ -79,8 +90,7 @@ class PostsController < ApplicationController
 
     def set_user
       if session[:user_id].nil?
-        flash[:alert] = "Log In To See Issue Tickets"
-        redirect_to root_path
+        @user = nil
       else
         @user = User.find(session[:user_id])
       end
