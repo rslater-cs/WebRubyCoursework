@@ -4,10 +4,12 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.json
   def index
+    #if there is no session id, send error and redirect to root
     if session[:user_id].nil?
       redirect_to root_path
       flash[:alert] = t(".user_not_logged_in")
     else
+      #get user from database and use email to get issue
       user = User.find_by(id: session[:user_id])
       email = user[:email]
       @issues = Issue.where(email: email)

@@ -17,18 +17,21 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+//Save font and font colour
 $font: 'Segoe UI';
 $color: #FFFFFF;
 
+//Make all content centered by default
 *{
   margin: 0 auto;
 }
-
 .main_body{
   text-align: center;
   margin: 0 auto;
 }
 
+//Sets background image such that scrolling will not move the image,
+//additionally makes the image fit any screen shape
 body{
   font-family: $font;
   font-weight: bold;
@@ -41,15 +44,18 @@ body{
   text-align: center;
 }
 
+//Makes header text appear on left
 .header{
   text-align: left;
   padding-left: 5vw;
 }
 
+//centers login form
 #login{
   text-align: center;
 }
 
+//changes login form if screen is in portrait mode
 @media (orientation: portrait){
   #login{
     font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1600 - 300)));
@@ -60,10 +66,14 @@ body{
     margin-bottom: 15vh;
   }
 }
+
+//changes login form if screen is in landscape mode
 @media (orientation: landscape){
   #login{
     font-size: calc(13px + (23  - 13) * ((100vw - 300px) / (1600 - 300)));
   }
+
+  //if screen is not very wide, the form will take up more space than if the screen is very wide
   @media (max-width: 999px){
     #login{
       width: 60%;
@@ -80,25 +90,13 @@ body{
   }
 }
 
-#input_button {
-  margin: 10px;
-  position: absolute;
-  top: inherit;
-}
+//#change_div{
+//  text-align: right;
+//  padding: 30px;
+//}
 
-enter_details{
-  position: relative;
-}
-
-#register_fields{
-  opacity: 0;
-}
-
-#change_div{
-  text-align: right;
-  padding: 30px;
-}
-
+//Sets input form to have curved fields and black buttons, additionally uses calc()
+//to produce responsive text size
 input {
   border-radius: 20px;
   outline: none;
@@ -115,14 +113,9 @@ input {
 }
 
 .submit{
-  outline: none;
-  font-weight: lighter;
-  border-radius: 3000px;
   background-color: black;
   color: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
-  border-width: 0;
-  font-size: calc(13px + (18  - 13) * ((100vw - 300px) / (1600 - 300)));
   padding: 2px 10px 3px 10px;
   width: calc(65px + (90  - 65) * ((100vw - 300px) / (1600 - 300)));
   height: calc(22px + (31  - 22) * ((100vw - 300px) / (1600 - 300)));
@@ -132,6 +125,7 @@ h1{
   text-transform: uppercase;
 }
 
+//formats each post and issue into a grey block such that they are easier to read
 #post_block{
   background-color: #BBBBBB;
   border-radius: 10px;

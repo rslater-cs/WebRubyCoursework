@@ -5,6 +5,8 @@ class Post < ApplicationRecord
 
   validate :body_entered
 
+  #for a post to be valid, it must either have an image or text for body, it may also have both
+  # this code checks that the post fits the requirement
   def body_entered
     if image.nil? && content.blank?
       errors.add(:content, "should be filled in OR")
