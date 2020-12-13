@@ -29,16 +29,6 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get edit" do
-    get edit_post_url(@post)
-    assert_response :success
-  end
-
-  test "should update post" do
-    patch post_url(@post), params: { post: { content: @post.content, dateposted: @post.dateposted, image: @post.image, user_id: @post.user_id } }
-    assert_redirected_to post_url(@post)
-  end
-
   test "should destroy post" do
     assert_difference('Post.count', -1) do
       delete post_url(@post)

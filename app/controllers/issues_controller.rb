@@ -1,5 +1,5 @@
 class IssuesController < ApplicationController
-  before_action :set_issue, only: [:edit, :update, :destroy]
+  before_action :set_issue, only: [:show, :edit, :update]
 
   # GET /issues
   # GET /issues.json
@@ -46,16 +46,6 @@ class IssuesController < ApplicationController
         format.html { render :edit }
         format.json { render json: @issue.errors, status: :unprocessable_entity }
       end
-    end
-  end
-
-  # DELETE /issues/1
-  # DELETE /issues/1.json
-  def destroy
-    @issue.destroy
-    respond_to do |format|
-      format.html { redirect_to issues_url, notice: 'Issue was successfully destroyed.' }
-      format.json { head :no_content }
     end
   end
 

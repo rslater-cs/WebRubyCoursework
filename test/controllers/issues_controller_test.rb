@@ -38,14 +38,6 @@ class IssuesControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to issues_url
   end
 
-  test "should destroy issue" do
-    assert_difference('Issue.count', -1) do
-      delete issue_url(@issue)
-    end
-
-    assert_redirected_to issues_url
-  end
-
   test "should create valid issue" do
     issue = Issue.new
 
