@@ -16,6 +16,11 @@ class PostsController < ApplicationController
   # GET /posts/new
   def new
     if @user.nil?
+      if post_params[:user_id].nil?
+        flash[:alert] = "Login to create posts"
+        redirect_to root_path
+        return
+      end
       @user = User.find(post_params[:user_id])
     end
     @post = @user.posts.new
@@ -35,6 +40,11 @@ class PostsController < ApplicationController
     end
 
     if @user.nil?
+      if session[:user_id].nil?
+        flash[:alert] = "Login to create posts"
+        redirect_to root_path
+        return
+      end
       @user = User.find(post_params[:user_id])
     end
 

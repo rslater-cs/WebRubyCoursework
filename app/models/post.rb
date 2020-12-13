@@ -2,12 +2,13 @@ class Post < ApplicationRecord
   belongs_to :user
   validates :user, presence: true
   validates :dateposted, presence: true
-  validate :content_presence_check
 
-  def content_presence_check
+  validate :body_entered
+
+  def body_entered
     if image.nil? && content.blank?
-      errors.add(:content, "is empty")
-      errors.add(:image, "is empty")
+      errors.add(:content, "should be filled in OR")
+      errors.add(:image, "should be filled in")
     end
   end
 end
