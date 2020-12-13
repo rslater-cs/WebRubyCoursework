@@ -6,7 +6,7 @@ class IssuesController < ApplicationController
   def index
     if session[:user_id].nil?
       redirect_to root_path
-      flash[:alert] = "Log In To See Issue Tickets"
+      flash[:alert] = t(".user_not_logged_in")
     else
       user = User.find_by(id: session[:user_id])
       email = user[:email]
@@ -26,7 +26,7 @@ class IssuesController < ApplicationController
 
     respond_to do |format|
       if @issue.save
-        format.html { redirect_to @issue, notice: 'Issue was successfully created.' }
+        format.html { redirect_to @issue, notice: t("issues.success")+t(".success") }
         format.json { render :show, status: :created, location: @issue }
       else
         format.html { render :new }
@@ -40,7 +40,7 @@ class IssuesController < ApplicationController
   def update
     respond_to do |format|
       if @issue.update(issue_params)
-        format.html { redirect_to issues_path, notice: 'Issue was successfully updated.' }
+        format.html { redirect_to issues_path, notice:  t("issues.success")+t(".success") }
         format.json { render :show, status: :ok, location: @issue }
       else
         format.html { render :edit }

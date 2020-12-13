@@ -18,11 +18,11 @@ class HomeController < ApplicationController
     if !name.blank? && !message.blank?
       @issue = Issue.new(name: name, email: email, telephone: telephone, message: message, closed: false)
       if @issue.save
-        flash[:notice] = "Issue was create successfully"
+        flash[:notice] = t(".success")
         redirect_to posts_path
       end
     else
-      flash[:alert] = "Issue not saved, info fields missing"
+      flash[:alert] = t(".error_fields_missing")
       redirect_to :new
     end
   end
@@ -32,12 +32,12 @@ class HomeController < ApplicationController
     password = params[:user][:password]
 
     if email.blank? || password.blank?
-      flash[:alert] = "Email and password must be filled in #{email} and #{password}"
+      flash[:alert] = t(".error_empty_fields")
       redirect_to root_path
     else
       user = User.find_by("email = '#{email}' AND password = '#{password}'")
       if user.nil?
-        flash[:alert] = "User does not exist"
+        flash[:alert] = t(".error_no_user")
         redirect_to root_path
       else
         session[:user_id] = user[:id]

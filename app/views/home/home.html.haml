@@ -2,11 +2,11 @@
   .user_form
     #login
       = form_tag get_user_path, method: "post" do
-        = label_tag :email, "Email"
+        = label_tag :email, t("home.email")
         %br
         = email_field_tag :email, '', :id => "email", :name => "user[email]"
         %p{:id => "email_error", :class => "error_message"}
-        = label_tag :password, "Password"
+        = label_tag :password, t(".password")
         %br
         = password_field_tag :password, '', :id => "password", :name => "user[password]"
         %p{:id => "password_error", :class => "error_message"}

@@ -17,7 +17,7 @@ class PostsController < ApplicationController
   def new
     if @user.nil?
       if post_params[:user_id].nil?
-        flash[:alert] = "Login to create posts"
+        flash[:alert] = t(".user_not_logged_in")
         redirect_to root_path
         return
       end
@@ -41,7 +41,7 @@ class PostsController < ApplicationController
 
     if @user.nil?
       if session[:user_id].nil?
-        flash[:alert] = "Login to create posts"
+        flash[:alert] = t(".user_not_logged_in")
         redirect_to root_path
         return
       end
@@ -52,7 +52,7 @@ class PostsController < ApplicationController
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to posts_path, notice: 'Post was successfully created.' }
+        format.html { redirect_to posts_path, notice: t("posts.success")+t(".success") }
         format.json { render :show, status: :created, location: @post }
       else
         format.html { render :new }
@@ -69,7 +69,7 @@ class PostsController < ApplicationController
     end
       @post.destroy
       respond_to do |format|
-        format.html { redirect_to posts_url, notice: 'Post was successfully destroyed.' }
+        format.html { redirect_to posts_url, notice: t("posts.success")+t(".success") }
         format.json { head :no_content }
       end
     end
