@@ -1,3 +1,6 @@
+/%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"}
+/%script{:type => "text/javascript", :src => "change_form.js"}
+
 .main_body
   .user_form
     #login
@@ -5,38 +8,14 @@
         = label_tag :email, t("home.email")
         %br
         = email_field_tag :email, '', :id => "email", :name => "user[email]"
+<<<<<<< HEAD
         %p{:id => "email_error", :class => "error_message"}
         = label_tag :password, t(".password")
+=======
+        %br
+        = label_tag :password, "Password"
+>>>>>>> parent of badd54f... created jquery validation for sign in field
         %br
         = password_field_tag :password, '', :id => "password", :name => "user[password]"
-        %p{:id => "password_error", :class => "error_message"}
+        %br
         = submit_tag "Submit", :class => "submit", :id => "enter_details"
-
-      :javascript
-        $(document).ready(function() {
-          const emailRegex = /[A-Za-z]([A-Za-z0-9]*\.?)*@[a-z]*\.((com)|(co\.uk))/;
-          const email = $('#email');
-          const password = $('#password');
-          email.change(function() {
-            const error = $('#email_error');
-            const enter = $('#enter_details');
-            if(!emailRegex.test(email.val())){
-              error.text("Email must be correctly formatted");
-              enter.prop('disabled', true)
-            }else{
-              error.text("");
-              enter.prop('disabled', false)
-            }
-          });
-          password.change(function() {
-            const error = $('#password_error');
-            const enter = $('#enter_details');
-            if(error.val().length < 8){
-              error.text("Password must be 8 characters or greater");
-              enter.prop('disabled', true)
-            }else{
-              error.text("");
-              enter.prop('disabled', false)
-            }
-          });
-        });

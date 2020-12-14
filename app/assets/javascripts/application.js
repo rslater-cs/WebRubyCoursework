@@ -9,6 +9,10 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
+<<<<<<< HEAD
+=======
+//
+>>>>>>> parent of badd54f... created jquery validation for sign in field
 //= require jquery3
 //= require jquery_ujs
 //= require bootstrap-sprockets

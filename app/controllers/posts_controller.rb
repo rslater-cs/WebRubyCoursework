@@ -17,6 +17,7 @@ class PostsController < ApplicationController
   def new
     #since testing cannot assign values to session variables
     if @user.nil?
+<<<<<<< HEAD
       if post_params[:user_id].nil?
         #if user and user id does not exist then send error message and go back to root
         flash[:alert] = t(".user_not_logged_in")
@@ -24,6 +25,8 @@ class PostsController < ApplicationController
         return
       end
       #if user id has been passed as a parameter then get user from database
+=======
+>>>>>>> parent of badd54f... created jquery validation for sign in field
       @user = User.find(post_params[:user_id])
     end
     #create new post
@@ -50,11 +53,14 @@ class PostsController < ApplicationController
     # this would be removed
     # if there is no user or user id then an error must be sent
     if @user.nil?
+<<<<<<< HEAD
       if session[:user_id].nil?
         flash[:alert] = t(".user_not_logged_in")
         redirect_to root_path
         return
       end
+=======
+>>>>>>> parent of badd54f... created jquery validation for sign in field
       @user = User.find(post_params[:user_id])
     end
 

@@ -18,8 +18,13 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
+<<<<<<< HEAD
         session[:user_id] = @user[:id]
         format.html { redirect_to posts_path, notice: t(".success")}
+=======
+        session[:user_id] = @user
+        format.html { redirect_to posts_path, notice: 'User was successfully created.' }
+>>>>>>> parent of badd54f... created jquery validation for sign in field
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }
