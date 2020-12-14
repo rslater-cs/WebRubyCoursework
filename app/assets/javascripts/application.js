@@ -10,6 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+//
+>>>>>>> parent of badd54f... created jquery validation for sign in field
 =======
 //
 >>>>>>> parent of badd54f... created jquery validation for sign in field
