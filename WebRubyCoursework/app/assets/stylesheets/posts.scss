@@ -1,0 +1,39 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//#new_post{
+//  position: fixed;
+//  top: 100px;
+//  right: 100px;
+//}
+//
+//#new_button{
+//  width: fit-content;
+//  height: fit-content;
+//  font-size: calc(15px + (25  - 15) * ((100vw - 300px) / (1600 - 300)));
+//}
+
+//centers images
+#post_image{
+  text-align: center;
+  margin: 0 auto;
+}
+
+//centers and reduces size of paragraph
+p{
+  width: 80%;
+  padding-left: 20%;
+  margin: 0 auto;
+}
+
+//reduces size of image
+.post_image{
+  width: 90%;
+  border-radius: 20px;
+}
+
+//sets default size of image to 10%
+img{
+  width: 10%;
+}

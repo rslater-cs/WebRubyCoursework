@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  content: Hello
+  image:
+  dateposted: 2020-11-26
+
+two:
+  user: two
+  content: Somthing
+  image: file.png
+  dateposted: 2020-11-26

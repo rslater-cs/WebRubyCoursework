@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @issue.name
+%p
+  %b Email:
+  = @issue.email
+%p
+  %b Telephone:
+  = @issue.telephone
+%p
+  %b Message:
+  = @issue.message
+%p
+  %b Closed:
+  = @issue.closed
+
+= link_to 'Edit', edit_issue_path(@issue)
+\|
+= link_to 'Back', issues_path

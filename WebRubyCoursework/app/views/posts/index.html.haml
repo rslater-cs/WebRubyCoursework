@@ -1,0 +1,18 @@
+%h1 Listing posts
+%br
+#new_post
+  %a{:href => new_post_path}
+    %button{:class => "submit", :id => "new_button", :title => "Create a new post here"} New
+
+%br
+
+- @posts.each do |post|
+  #post_block
+    %p= post.user_id
+    - if !post.content.nil?
+      %p= post.content
+    - if !post.image.nil?
+      %image{src:"uploads/#{post.image}", :class => "post_image"}
+    %p= post.dateposted
+    - if post.user_id == session[:user_id]
+      %p= link_to image_tag('/bin_symbol.png'), post, method: :delete, data: {confirm: 'Are you sure?'}

@@ -1,0 +1,96 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  app_title: Post Board
+  app_description: Twitter but worse
+  home:
+    email: "Email:"
+
+    home:
+      title: Post Board
+      welcome: A place to share your thoughts? (cringe)
+      password: "Password:"
+
+    contact:
+      title: Contact Us
+      contact_us: Complete the following to get in contact with us
+
+      name: "Name:"
+      enter_name: Enter your name
+      enter_email: Enter your email address
+      telephone: "Telephone:"
+      enter_telephone: Enter your telephone number
+      message: "Message:"
+      enter_message: What do you want to say?
+      submit: Contact Us
+
+    request_contact:
+      no_email: You must supply an email address
+      email_sent: Thank you. We will be in touch shortly
+      success: "Issue was create successfully"
+      error_fields_missing: "Issue not saved, info fields missing"
+
+    get_user:
+      error_empty_fields: "Email and password must be filled in"
+      error_no_user: "User does not exist"
+
+  issues:
+    success: "Issue was successfully "
+
+    index:
+      user_not_logged_in: "Log in to see issue tickets"
+
+    create:
+      success: "created"
+
+    update:
+      success: "updated"
+
+  posts:
+    user_not_logged_in: "Log in to create posts"
+    success: "Post was successfully "
+
+    create:
+      success: "created"
+
+    destroy:
+      success: "destroyed"
+
+  shared:
+    header:
+      title_top: Post
+      title_bottom: Board.
+      welcome: A place to share your thoughts? (cringe)
+
+  users:
+    create:
+      success: "User was successfully created"

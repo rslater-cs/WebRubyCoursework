@@ -1,0 +1,14 @@
+%h1 Listing issues
+
+- @issues.each do |issue|
+  #post_block
+    #info
+      #status
+        -status = "Open"
+        - if issue.closed
+          - status = "Closed"
+        = link_to "Issue #{status}", edit_issue_path(issue)
+      %p= issue.name
+      %p= issue.email
+      %p= issue.telephone
+    %p= issue.message

@@ -11,6 +11,10 @@
 // about supported directives.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+//
+>>>>>>> parent of badd54f... created jquery validation for sign in field
 =======
 //
 >>>>>>> parent of badd54f... created jquery validation for sign in field
