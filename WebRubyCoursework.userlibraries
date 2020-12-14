@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="io-like (v0.3.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/io-like-0.3.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/io-like-0.3.1/spec" />
+  </library>
+  <library name="actionpack (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionpack-5.2.4.4/lib" />
+  </library>
+  <library name="sass-rails (v5.1.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-rails-5.1.0/lib" />
+  </library>
+  <library name="actioncable (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actioncable-5.2.0/lib" />
+  </library>
+  <library name="bootstrap-sass (v3.3.7, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/tasks" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/assets" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.3.7/templates" />
+  </library>
+  <library name="builder (v3.2.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/builder-3.2.4/doc" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/builder-3.2.4/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/builder-3.2.4/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/builder-3.2.4/rakelib" />
+  </library>
+  <library name="activestorage (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.4/db" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.4/app" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.4/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.4.4/config" />
+  </library>
+  <library name="xpath (v3.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/xpath-3.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/xpath-3.2.0/spec" />
+  </library>
+  <library name="warden (v1.2.9, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/warden-1.2.9/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/warden-1.2.9/.github" />
+  </library>
+  <library name="actionview (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib" />
+  </library>
+  <library name="openssl (v2.1.2, ruby-2.5.8-p224) [gem]" />
+  <library name="msgpack (v1.3.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/msgpack/1.3.3" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/msgpack-1.3.3-x64-mingw32/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/msgpack-1.3.3-x64-mingw32/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/msgpack-1.3.3-x64-mingw32/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/msgpack-1.3.3-x64-mingw32/bench" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/msgpack-1.3.3-x64-mingw32/doclib" />
+  </library>
+  <library name="rake (v13.0.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-13.0.1/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-13.0.1/doc" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-13.0.1/exe" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-13.0.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-13.0.1/.github" />
+  </library>
+  <library name="haml (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/haml-5.2.0/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/haml-5.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/haml-5.2.0/yard" />
+  </library>
+  <library name="rubyzip (v2.3.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rubyzip-2.3.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rubyzip-2.3.0/samples" />
+  </library>
+  <library name="psych (v3.0.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/psych/json" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/psych/nodes" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/psych/handlers" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/psych/visitors" />
+  </library>
+  <library name="sass (v3.7.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/extra" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/rails" />
+  </library>
+  <library name="activesupport (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib" />
+  </library>
+  <library name="tzinfo (v1.2.7, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tzinfo-1.2.7/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tzinfo-1.2.7/test" />
+  </library>
+  <library name="railties (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.2.0/exe" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib" />
+  </library>
+  <library name="selenium-webdriver (v3.142.7, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.142.7/lib" />
+  </library>
+  <library name="byebug (v11.1.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/byebug/11.1.3" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/byebug-11.1.3/exe" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/byebug-11.1.3/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/byebug-11.1.3/lib" />
+  </library>
+  <library name="rack-test (v1.1.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib" />
+  </library>
+  <library name="fiddle (v1.0.0, ruby-2.5.8-p224) [gem]" />
+  <library name="minitest (v5.14.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.14.2/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.14.2/test" />
+  </library>
+  <library name="webrick (v1.4.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/webrick/httpauth" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/webrick/httpservlet" />
+  </library>
+  <library name="sprockets-rails (v3.2.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sprockets-rails-3.2.2/lib" />
+  </library>
+  <library name="rb-inotify (v0.10.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/spec" />
+  </library>
+  <library name="capybara (v3.33.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-3.33.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-3.33.0/spec" />
+  </library>
+  <library name="websocket-driver (v0.7.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/websocket-driver/0.7.3" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/websocket-driver-0.7.3/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/websocket-driver-0.7.3/lib" />
+  </library>
+  <library name="addressable (v2.7.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/addressable-2.7.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/addressable-2.7.0/data" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/addressable-2.7.0/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/addressable-2.7.0/tasks" />
+  </library>
+  <library name="bootsnap (v1.5.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/bootsnap/1.5.0" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootsnap-1.5.0/exe" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootsnap-1.5.0/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootsnap-1.5.0/lib" />
+  </library>
+  <library name="regexp_parser (v1.8.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/regexp_parser-1.8.2/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/regexp_parser-1.8.2/spec" />
+  </library>
+  <library name="responders (v3.0.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/responders-3.0.1/lib" />
+  </library>
+  <library name="nio4r (v2.5.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/nio4r/2.5.4" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nio4r-2.5.4/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nio4r-2.5.4/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nio4r-2.5.4/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nio4r-2.5.4/.github" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nio4r-2.5.4/rakelib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nio4r-2.5.4/examples" />
+  </library>
+  <library name="crass (v1.0.6, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/crass-1.0.6/lib" />
+  </library>
+  <library name="rails-controller-testing (v1.0.5, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rails-controller-testing-1.0.5/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rails-controller-testing-1.0.5/test" />
+  </library>
+  <library name="activestorage (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.0/db" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.0/app" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activestorage-5.2.0/config" />
+  </library>
+  <library name="activemodel (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activemodel-5.2.0/lib" />
+  </library>
+  <library name="rack (v2.2.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rack-2.2.3/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rack-2.2.3/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rack-2.2.3/contrib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rack-2.2.3/example" />
+  </library>
+  <library name="actionmailer (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionmailer-5.2.4.4/lib" />
+  </library>
+  <library name="actionpack (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib" />
+  </library>
+  <library name="erubis (v2.7.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/doc" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/contrib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/doc-api" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/examples" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubis-2.7.0/benchmark" />
+  </library>
+  <library name="web-console (v3.7.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/web-console-3.7.0/lib" />
+  </library>
+  <library name="html2haml (v2.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/html2haml-2.2.0/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/html2haml-2.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/html2haml-2.2.0/test" />
+  </library>
+  <library name="activerecord (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/examples" />
+  </library>
+  <library name="rb-fsevent (v0.10.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/rb-fsevent/0.10.4" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rb-fsevent-0.10.4/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rb-fsevent-0.10.4/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rb-fsevent-0.10.4/lib" />
+  </library>
+  <library name="net-telnet (v0.1.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/net-telnet-0.1.1/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/net-telnet-0.1.1/lib" />
+  </library>
+  <library name="marcel (v0.3.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/marcel-0.3.3/lib" />
+  </library>
+  <library name="devise (v4.7.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.3/app" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.3/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.3/config" />
+  </library>
+  <library name="thread_safe (v0.3.6, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/tasks" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/examples" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/yard-template" />
+  </library>
+  <library name="erubi (v1.9.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubi-1.9.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubi-1.9.0/test" />
+  </library>
+  <library name="activejob (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activejob-5.2.0/lib" />
+  </library>
+  <library name="tzinfo-data (v1.2020.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tzinfo-data-1.2020.4/lib" />
+  </library>
+  <library name="bcrypt (v3.1.16, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/bcrypt/3.1.16" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bcrypt-3.1.16/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bcrypt-3.1.16/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bcrypt-3.1.16/spec" />
+  </library>
+  <library name="thor (v1.0.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thor-1.0.1/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/thor-1.0.1/lib" />
+  </library>
+  <library name="concurrent-ruby (v1.1.7, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.1.7/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.1.7/lib" />
+  </library>
+  <library name="puma (v3.12.6, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/puma/3.12.6" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/puma-3.12.6/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/puma-3.12.6/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/puma-3.12.6/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/puma-3.12.6/docs" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/puma-3.12.6/tools" />
+  </library>
+  <library name="jquery-rails (v4.4.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor" />
+  </library>
+  <library name="actioncable (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actioncable-5.2.4.4/lib" />
+  </library>
+  <library name="xmlrpc (v0.3.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/xmlrpc-0.3.0/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/xmlrpc-0.3.0/lib" />
+  </library>
+  <library name="io-console (v0.4.6, ruby-2.5.8-p224) [gem]" />
+  <library name="turbolinks-source (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib" />
+  </library>
+  <library name="coffee-rails (v4.2.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib" />
+  </library>
+  <library name="loofah (v2.7.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/loofah-2.7.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/loofah-2.7.0/benchmark" />
+  </library>
+  <library name="sexp_processor (v4.15.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sexp_processor-4.15.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sexp_processor-4.15.1/test" />
+  </library>
+  <library name="rails (v5.2.0, ruby-2.5.8-p224) [gem]" />
+  <library name="bigdecimal (v1.3.4, ruby-2.5.8-p224) [gem]" />
+  <library name="rails (v5.2.4.4, ruby-2.5.8-p224) [gem]" />
+  <library name="rake (v12.3.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-12.3.3/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-12.3.3/doc" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-12.3.3/exe" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rake-12.3.3/lib" />
+  </library>
+  <library name="archive-zip (v0.12.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/archive-zip-0.12.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/archive-zip-0.12.0/spec" />
+  </library>
+  <library name="actionmailer (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionmailer-5.2.0/lib" />
+  </library>
+  <library name="nokogiri (v1.10.10, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/nokogiri/1.10.10" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nokogiri-1.10.10-x64-mingw32/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nokogiri-1.10.10-x64-mingw32/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nokogiri-1.10.10-x64-mingw32/lib" />
+  </library>
+  <library name="globalid (v0.4.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/globalid-0.4.2/lib" />
+  </library>
+  <library name="test-unit (v3.2.7, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/test-unit-3.2.7/doc" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/test-unit-3.2.7/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/test-unit-3.2.7/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/test-unit-3.2.7/sample" />
+  </library>
+  <library name="activejob (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activejob-5.2.4.4/lib" />
+  </library>
+  <library name="activemodel (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activemodel-5.2.4.4/lib" />
+  </library>
+  <library name="actionview (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionview-5.2.4.4/lib" />
+  </library>
+  <library name="activesupport (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.4.4/lib" />
+  </library>
+  <library name="websocket-extensions (v0.1.5, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/websocket-extensions-0.1.5/lib" />
+  </library>
+  <library name="minitest (v5.10.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.10.3/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.10.3/test" />
+  </library>
+  <library name="sprockets (v4.0.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sprockets-4.0.2/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sprockets-4.0.2/lib" />
+  </library>
+  <library name="autoprefixer-rails (v10.0.1.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/autoprefixer-rails-10.0.1.2/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/autoprefixer-rails-10.0.1.2/vendor" />
+  </library>
+  <library name="did_you_mean (v1.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/doc" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/benchmark" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/evaluation" />
+  </library>
+  <library name="turbolinks (v5.2.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/turbolinks-5.2.1/lib" />
+  </library>
+  <library name="duktape (v2.3.0.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/duktape/2.3.0.0" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/duktape-2.3.0.0/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/duktape-2.3.0.0/lib" />
+  </library>
+  <library name="mini_mime (v1.0.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mini_mime-1.0.2/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mini_mime-1.0.2/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mini_mime-1.0.2/bench" />
+  </library>
+  <library name="activerecord (v5.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/examples" />
+  </library>
+  <library name="json (v2.1.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/json/add" />
+  </library>
+  <library name="temple (v0.8.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/temple-0.8.2/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/temple-0.8.2/test" />
+  </library>
+  <library name="tzinfo (v1.2.8, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tzinfo-1.2.8/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tzinfo-1.2.8/test" />
+  </library>
+  <library name="ruby_parser (v3.15.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ruby_parser-3.15.0/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ruby_parser-3.15.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ruby_parser-3.15.0/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ruby_parser-3.15.0/tools" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ruby_parser-3.15.0/compare" />
+  </library>
+  <library name="sass-listen (v4.0.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib" />
+  </library>
+  <library name="railties (v5.2.4.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/exe" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib" />
+  </library>
+  <library name="ffi (v1.13.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ffi-1.13.1-x64-mingw32/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ffi-1.13.1-x64-mingw32/.github" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/ffi-1.13.1-x64-mingw32/samples" />
+  </library>
+  <library name="coffee-script-source (v1.12.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/coffee-script-source-1.12.2/lib" />
+  </library>
+  <library name="sqlite3 (v1.4.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/sqlite3/1.4.2" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sqlite3-1.4.2/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sqlite3-1.4.2/faq" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sqlite3-1.4.2/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sqlite3-1.4.2/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sqlite3-1.4.2/rakelib" />
+  </library>
+  <library name="power_assert (v1.1.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/power_assert-1.1.1/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/power_assert-1.1.1/lib" />
+  </library>
+  <library name="arel (v9.0.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/arel-9.0.0/lib" />
+  </library>
+  <library name="execjs (v2.7.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/execjs-2.7.0/lib" />
+  </library>
+  <library name="bundler (v2.1.4, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/exe" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/man" />
+  </library>
+  <library name="mail (v2.7.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mail-2.7.1/lib" />
+  </library>
+  <library name="mini_portile2 (v2.4.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mini_portile2-2.4.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mini_portile2-2.4.0/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mini_portile2-2.4.0/concourse" />
+  </library>
+  <library name="mimemagic (v0.3.5, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mimemagic-0.3.5/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mimemagic-0.3.5/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mimemagic-0.3.5/script" />
+  </library>
+  <library name="rdoc (v6.0.1.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/rd" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/ri" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/i18n" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/stats" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/markup" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/parser" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/context" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/markdown" />
+    <archive path="C:/Ruby25-x64/lib/ruby/2.5.0/rdoc/generator" />
+  </library>
+  <library name="bindex (v0.8.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Users/ryans/AppData/Roaming/JetBrains/IntelliJIdea2020.3/plugins/ruby/rubystubs/rubystubs25/bindex/0.8.1" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bindex-0.8.1/ext" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bindex-0.8.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bindex-0.8.1/test" />
+  </library>
+  <library name="haml-rails (v2.0.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/haml-rails-2.0.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/haml-rails-2.0.1/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/haml-rails-2.0.1/gemfiles" />
+  </library>
+  <library name="jbuilder (v2.10.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jbuilder-2.10.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jbuilder-2.10.1/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jbuilder-2.10.1/gemfiles" />
+  </library>
+  <library name="i18n (v1.8.5, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/i18n-1.8.5/lib" />
+  </library>
+  <library name="chromedriver-helper (v1.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-1.2.0/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-1.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-1.2.0/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-1.2.0/concourse" />
+  </library>
+  <library name="orm_adapter (v0.5.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/orm_adapter-0.5.0/gemfiles" />
+  </library>
+  <library name="rails-html-sanitizer (v1.3.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/test" />
+  </library>
+  <library name="public_suffix (v4.0.6, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/public_suffix-4.0.6/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/public_suffix-4.0.6/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/public_suffix-4.0.6/data" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/public_suffix-4.0.6/test" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/public_suffix-4.0.6/.github" />
+  </library>
+  <library name="method_source (v1.0.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/method_source-1.0.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/method_source-1.0.0/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/method_source-1.0.0/.circleci" />
+  </library>
+  <library name="chromedriver-helper (v2.1.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-2.1.1/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-2.1.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-2.1.1/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/chromedriver-helper-2.1.1/concourse" />
+  </library>
+  <library name="sprockets (v3.7.2, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sprockets-3.7.2/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sprockets-3.7.2/lib" />
+  </library>
+  <library name="uglifier (v4.2.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/uglifier-4.2.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/uglifier-4.2.0/.github" />
+  </library>
+  <library name="childprocess (v3.0.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/childprocess-3.0.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/childprocess-3.0.0/spec" />
+  </library>
+  <library name="tilt (v2.0.10, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tilt-2.0.10/bin" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tilt-2.0.10/lib" />
+  </library>
+  <library name="modernizr-rails (v2.7.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/modernizr-rails-2.7.1/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/modernizr-rails-2.7.1/vendor" />
+  </library>
+  <library name="coffee-script (v2.4.1, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/coffee-script-2.4.1/lib" />
+  </library>
+  <library name="erubi (v1.10.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/erubi-1.10.0/lib" />
+  </library>
+  <library name="rails-dom-testing (v2.0.3, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/test" />
+  </library>
+  <library name="jquery-turbolinks (v2.1.0, ruby-2.5.8-p224) [gem]">
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-turbolinks-2.1.0/lib" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-turbolinks-2.1.0/src" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-turbolinks-2.1.0/spec" />
+    <archive path="C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-turbolinks-2.1.0/vendor" />
+  </library>
+</eclipse-userlibraries>
+
